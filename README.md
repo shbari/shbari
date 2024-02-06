@@ -6,3 +6,12 @@
 shbari/shbari is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+Ratting curve
+# Some algorithom may gives local optima deviating from global best
+# the initial value plays an important rule in finding best parameters value
+# please check these fatcs before using any fitting algorithom
+#example use:
+fit_rating_curve(file_path)
+fit_rating_curve('path/to/your/data.csv', a_initial=0.5, b_initial=1.0, maxfev=1000)
+# Ensure that the CSV file contains three columns named 'Time", 'H' for river stage and 'Q' for discharge
+
