@@ -61,4 +61,4 @@ def fit_rating_curve(file_path, a_initial=None, b_initial=None, maxfev=None):
     plt.show()
 
 # Example usage
-fit_rating_curve('Rating_curve.csv', a_initial=0.5, b_initial=1.0, maxfev=10000)
+fit_rating_curve('Rating_curve.csv', a_initial=0.5, b_initial=1.0, maxfev=100)
