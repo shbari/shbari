@@ -1,5 +1,5 @@
 # This code plots multiple Y-axis with a shared x-axis.
-#matplotlib tutorial link: https://matplotlib.org/stable/gallery/spines/multiple_yaxis_with_spines.html
+
 import matplotlib.pyplot as plt
 
 fig, ax = plt.subplots()

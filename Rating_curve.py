@@ -2,6 +2,9 @@ import numpy as np
 from scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
 import pandas as pd
+# We appreciate your citation of this article if you use this code: 
+# Hefzul Bari, S., Yokoo, Y., & Leong, C. (2024). A brief review of recent global trends in suspended sediment estimation studies. Hydrological Research Letters, 18(2), 51–57. 
+# https://doi.org/10.3178/hrl.18.51
 
 def fit_rating_curve(file_path, a_initial=None, b_initial=None, maxfev=None):
 

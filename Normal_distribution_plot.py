@@ -1,15 +1,14 @@
 # This code mkaes two normally distributed curve
+# We appreciate your citation of this article if you use this code: 
+# Hefzul Bari, S., Yokoo, Y., & Leong, C. (2024). A brief review of recent global trends in suspended sediment estimation studies. Hydrological Research Letters, 18(2), 51–57. 
+# https://doi.org/10.3178/hrl.18.51
 # import numpy
 import numpy as np
 #import matplotlib pyplot
 import matplotlib.pyplot as plt
 #import norm from scipy
 from scipy.stats import norm
-# if you want change the deaful font settings, use the next three line
-# I will modify each text therefore, I will not use this.
-#plt.rcParams['font.size'] = '20' # set default font size to 20
-#plt.rcParams["font.family"] = 'Arial' # set default font to Arial
-#plt.rcParams['font.style'] = 'normal' # Set default style to normal
+
 # make normally distibuted data 
 x= np.arange (-5, 7, 0.001)
 y= np.arange (-5, 7, 0.001)
@@ -39,12 +38,7 @@ leg = ax.legend()
 #plt.legend(["Low Flow", "High Flow"], fontsize="27", loc = "upper left", handlelength=0.5, handletextpad=0.1, frameon=False)
 plt.legend(["Low Flow", "High Flow"], fontsize="27", loc = "upper left", bbox_to_anchor=(-0.05, 1), handlelength=0.5, handletextpad=0.1, frameon=False)
 #plt.xlim([-5, 5])
-plt.savefig('figure5a.pdf')
 plt.show()
-#plt.savefig('5a.pdf', format='pdf')
-
-# In[ ]:
-
 
 
 

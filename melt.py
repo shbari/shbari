@@ -1,5 +1,8 @@
 import pandas as pd
 import numpy as np
+# We appreciate your citation of this article if you use this code: 
+# Hefzul Bari, S., Yokoo, Y., & Leong, C. (2024). A brief review of recent global trends in suspended sediment estimation studies. Hydrological Research Letters, 18(2), 51–57. 
+# https://doi.org/10.3178/hrl.18.51
 
 def process_wide_data(input_file, output_file, value_name='Data'):
     # Read data from the file
