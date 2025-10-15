@@ -1,6 +1,4 @@
-# Welcome to My GitHub Profile!
-
-## 👋 Hi, I’m Sheikh
+# 👋 Hi, I’m Sheikh
 - 👀 This repo contains the codes I wrote during my PhD journey.
 - 📫 Visit my website at [https://sites.google.com/view/shbari/?pli=1](https://sites.google.com/view/shbari/?pli=1)
 
