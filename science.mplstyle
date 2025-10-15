@@ -6,12 +6,12 @@ axes.prop_cycle : cycler('color', ['0C5DA5', '00B945', 'FF9500', 'FF2C00', '845B
 
 # Set default figure size
 figure.figsize : 3.35, 2.60
-#figure.dpi : 600
+figure.dpi : 600
 
 # Set font sizes for titles and labels
-#font.size : 10
-#axes.titlesize : 24
-#axes.labelsize : 12
+font.size : 10
+axes.titlesize : 12
+axes.labelsize : 12
 
 # Set x axis
 xtick.direction : in
@@ -19,7 +19,7 @@ xtick.major.size : 3
 xtick.major.width : 0.5
 xtick.minor.size : 1.5
 xtick.minor.width : 0.5
-xtick.minor.visible : True
+#xtick.minor.visible : True
 xtick.top : True
 
 # Set y axis
@@ -28,13 +28,14 @@ ytick.major.size : 3
 ytick.major.width : 0.5
 ytick.minor.size : 1.5
 ytick.minor.width : 0.5
-ytick.minor.visible : True
+#ytick.minor.visible : True
 ytick.right : True
 
 # Set line widths
 axes.linewidth : 0.5
 grid.linewidth : 0.5
 lines.linewidth : 1
+lines.markersize : 4
 
 # Use legend frame
 legend.frameon : True
